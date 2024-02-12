@@ -7,6 +7,7 @@ export 'package:employee_mobile_app/initalize_app_resources.dart';
 export 'package:employee_mobile_app/src/utilities/app_constants.dart';
 export 'package:employee_mobile_app/src/controllers/app_controller.dart';
 export 'package:employee_mobile_app/src/services/navigation_services.dart';
+export 'package:shrink_sidemenu/shrink_sidemenu.dart';
 export 'package:employee_mobile_app/src/features/documents/documents_widget.dart';
 export 'package:employee_mobile_app/src/features/work_shift/work_shift_widget.dart';
 export 'package:employee_mobile_app/src/features/employee_law/employee_law_widget.dart';
