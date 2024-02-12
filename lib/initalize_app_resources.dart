@@ -13,23 +13,14 @@ class _InitializeAppResourcesState extends State<InitializeAppResources> {
     super.initState();
 
     /// INITIALIZING THE RESOURCES
-    // context.postFrameCallback(
-    //       () => appController.initializeAppResources().whenComplete(
-    //         () {
-    //       // if (appController.isFirstTimeUser) {
-    //       // appController.setFirstTimeUserFlagToHive = false;
-    //       // context.pushNamedAndRemoveUntil(Routes.appOnboarding);
-    //       // return;
-    //       // }
-    //       context.pushNamedAndRemoveUntil(Routes.home);
-    //     },
-    //   ),
-    // );
+
+    context.postFrameCallback(() {
+      context.pushNamedAndRemoveUntil(Routes.home);
+    });
   }
 
   @override
   Widget build(BuildContext context) => const AppScaffold(
-        // title: kAppName,
         showBackButton: false,
         disableScrollbar: true,
         physics: NeverScrollableScrollPhysics(),
@@ -37,12 +28,9 @@ class _InitializeAppResourcesState extends State<InitializeAppResources> {
           physics: NeverScrollableScrollPhysics(),
           child: Column(
             children: [
-              SizedBox(height: 20),
-              SizedBox(height: 40),
+              SizedBox(height: 80),
               AppLoader(),
               SizedBox(height: 40),
-              // BlogCardTabletPortrait(),
-              // BlogCardTabletLandscape(),
             ],
           ),
         ),
