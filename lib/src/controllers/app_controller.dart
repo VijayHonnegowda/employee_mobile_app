@@ -7,4 +7,6 @@ class AppController {
   AppController._internal();
 
   final ValueNotifier<bool> languageNotifier = ValueNotifier(false);
+
+  final ValueNotifier<bool> workShiftButtonValue = ValueNotifier(false);
 }
