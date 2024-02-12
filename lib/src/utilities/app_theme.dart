@@ -148,7 +148,11 @@ class AppTheme {
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: _darkGreyBG),
           bodySmall: TextStyle(color: _darkGreyBG),
-          bodyMedium: TextStyle(color: _darkGreyBG),
+          bodyMedium: TextStyle(
+            color: _darkGreyBG,
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
+          ),
           titleLarge: TextStyle(color: _darkGreyBG),
           titleMedium: TextStyle(color: _darkGreyBG),
         ),
@@ -201,7 +205,13 @@ class AppTheme {
             fontSize: 16,
             color: _darkGreyBG,
             fontFamily: 'Poppins',
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.w500,
+          ),
+          subtitleTextStyle: TextStyle(
+            fontSize: 14,
+            color: _mediumGrayBG,
+            fontFamily: 'Poppins',
+            fontWeight: FontWeight.w400,
           ),
         ),
         appBarTheme: AppBarTheme(
