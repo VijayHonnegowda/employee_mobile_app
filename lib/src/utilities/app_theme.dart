@@ -142,6 +142,9 @@ class AppTheme {
           elevation: 0,
           backgroundColor: _neutralColor,
         ),
+        cardTheme: const CardTheme(
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
+        ),
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: _darkGreyBG),
           bodySmall: TextStyle(color: _darkGreyBG),
