@@ -1,4 +1,3 @@
-
 import 'package:employee_mobile_app/src/utilities/common_exports.dart';
 
 class Home extends StatefulWidget {
@@ -20,6 +19,8 @@ class _HomeState extends State<Home> {
               WorkShiftWidget(),
               SizedBox(height: 12),
               EmployeeLawWidget(),
+              SizedBox(height: 12),
+              DocumentsWidget(),
             ],
           ),
         ),
