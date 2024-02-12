@@ -15,12 +15,13 @@ class _EmployeeMobileApp extends StatelessWidget {
     return ValueListenableBuilder<bool>(
         valueListenable: AppController().languageNotifier,
         builder: (context, _, child) => MaterialApp(
+              themeMode: ThemeMode.light,
+              theme: AppTheme().light,
               debugShowCheckedModeBanner: false,
               initialRoute: Routes.initializeAppResources,
               navigatorKey: NavigationServices.navigatorKey,
               onGenerateRoute: NavigationServices.generateRoute,
               supportedLocales: S.delegate.supportedLocales,
-              locale: const Locale("de"),
               localizationsDelegates: const <LocalizationsDelegate<dynamic>>[
                 S.delegate,
                 ecommerce_mobile_login_localization.S.delegate,
