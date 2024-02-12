@@ -8,4 +8,6 @@ export 'package:employee_mobile_app/src/utilities/app_constants.dart';
 export 'package:employee_mobile_app/src/controllers/app_controller.dart';
 export 'package:employee_mobile_app/src/services/navigation_services.dart';
 export 'package:employee_mobile_app/src/features/work_shift/work_shift_widget.dart';
+export 'package:employee_mobile_app/src/features/employee_law/employee_law_widget.dart';
+export 'package:employee_mobile_app/src/features/employee_law/employee_law_description.dart';
 export 'package:tyrios_mobile_app_flutter_extensions/tyrios_mobile_app_flutter_extensions.dart';
