@@ -10,10 +10,17 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        WorkShift(),
-      ],
+    return const Material(
+      child: SafeArea(
+        child: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              WorkShiftWidget(),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

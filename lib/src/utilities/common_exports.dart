@@ -7,5 +7,5 @@ export 'package:employee_mobile_app/initalize_app_resources.dart';
 export 'package:employee_mobile_app/src/utilities/app_constants.dart';
 export 'package:employee_mobile_app/src/controllers/app_controller.dart';
 export 'package:employee_mobile_app/src/services/navigation_services.dart';
-export 'package:employee_mobile_app/src/features/work_shift/work_shift.dart';
+export 'package:employee_mobile_app/src/features/work_shift/work_shift_widget.dart';
 export 'package:tyrios_mobile_app_flutter_extensions/tyrios_mobile_app_flutter_extensions.dart';
